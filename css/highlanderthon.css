@@ -1,0 +1,75 @@
+body{
+    background: url('http://subtlepatterns.com/patterns/stardust.png');
+    padding: 25px;
+}
+
+
+
+.navbar-default {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar-default .navbar-brand {
+  color: #f3734c;
+}
+
+nav .container-fluid{
+    padding-right: 0px;
+}
+
+.navbar-default .navbar-nav>.donate>a, .navbar-default .navbar-nav>.donate>a:focus, .navbar-default .navbar-nav>.donate>a:hover {
+    background-color: #2b2b2b;
+    color: #FFFFFF;
+    border: none;
+}
+
+.gradient { 
+    height: 500px;
+    width: 100%;
+    background: #f3734c;
+    background: -moz-linear-gradient(-45deg, #f3734c 0%, #f15f54 34%, #ee3763 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, #f3734c), color-stop(34%, #f15f54), color-stop(100%, #ee3763));
+    background: -webkit-linear-gradient(-45deg, #f3734c 0%, #f15f54 34%, #ee3763 100%);
+    background: -o-linear-gradient(-45deg, #f3734c 0%, #f15f54 34%, #ee3763 100%);
+    background: -ms-linear-gradient(-45deg, #f3734c 0%, #f15f54 34%, #ee3763 100%);
+    background: linear-gradient(135deg, #f3734c 0%, #f15f54 34%, #ee3763 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3734c', endColorstr='#ee3763', GradientType=1 );
+}
+
+.wedge { 
+    height: 500px;
+    width: 100%;
+    margin-top: -100px;
+    z-index: -1;
+    transform: skewY(-5deg);
+    background: url('../img/hero.jpg') no-repeat;
+    background-size: cover;
+    background-position: 0px -100px;
+    
+}
+
+.instruction { 
+    height: 300px;
+    width: 100%;
+    background: #F5F5F5;
+    overflow: visible;
+    transform: translateY(-50px);
+}
+
+@media (max-width: 768px){
+    body{
+        padding: 0px;
+    }
+    .container{
+        padding: 0px;   
+    }
+    .wedge{
+        height: 300px;
+    }
+    nav .container-fluid{
+        padding-right: 15px;
+    }
+}
