@@ -1,9 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis:300,400,500,700);
+
 body{
     background: url('http://subtlepatterns.com/patterns/stardust.png');
     padding: 25px;
+	font-family: 'Dosis', Helvetica, Arial, sans-serif;
 }
 
 
+
+nav .container-fluid{
+    padding-right: 0px;
+}
 
 .navbar-default {
     background-color: #FFFFFF;
@@ -16,8 +23,24 @@ body{
   color: #f3734c;
 }
 
-nav .container-fluid{
-    padding-right: 0px;
+.navbar-nav>li>.dropdown-menu {
+	border-top: 0px;
+	background: #F5F5F5;
+}
+
+.dropdown-menu>li>a {
+	color: #5b5b5b;
+}
+
+.dropdown-menu>li>a:hover {
+	color: #ee3763;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #5b5b5b;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	color: #2b2b2b;
 }
 
 .navbar-default .navbar-nav>.donate>a, .navbar-default .navbar-nav>.donate>a:focus, .navbar-default .navbar-nav>.donate>a:hover {
